@@ -9,7 +9,7 @@ var fr;
 var canvas;
 
 function setup() {
-    canvas = createCanvas(windowWidth * 0.8, windowHeight * 0.6);
+    canvas = createCanvas(windowWidth * 0.6, windowHeight * 0.4);
     
     canvas.parent('container-game');
     
