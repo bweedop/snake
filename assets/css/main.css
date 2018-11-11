@@ -1,0 +1,80 @@
+html, body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+header nav {
+    padding: 30px;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    flex-direction: row;
+    list-style: none;
+    font-family: monospace;
+    font-size: 18px;
+}
+
+a {
+    padding: 30px;
+    color: black;
+    text-decoration: none;
+    font-weight: 1000;
+    transition: 400ms;
+}
+
+a:hover {
+    color: purple;
+    transition: 400ms;
+}
+
+#container-game {
+    width: 100%;
+    height: 50%;
+    margin: inherit;
+    padding: inherit;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.container-btn {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    
+}
+
+.container-btn button {
+    background-color: darkslateblue;
+    padding: 20px;
+    border: none;
+    margin: 40px;
+    border-radius: 6px;
+    color: white;
+    font-family: monospace;
+    font-size: 18px;
+    box-shadow: 2px 4px 6px 2px rgba(0,0,0,0.34);
+    transition: 600ms;
+}
+
+.container-btn button:hover {
+    box-shadow: 2px 4px 9px 0px rgba(0,0,0,0.34);;
+    transition: 500ms;
+    
+}
+
+#gameOver {
+    color: white;
+    font-family: monospace;
+    text-align: center;
+    font-size: 24px;
+}
+
+.container-score {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    font-family: monospace;
+    font-size: 18px;
+}

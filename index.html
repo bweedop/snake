@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="author" content="K Bodie Weedop">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <script src="assets/js/p5.min.js"></script>
+    <title>Snake Game in JS</title>
+</head>
+    <body>
+        <header>
+            <nav>
+                <li><a href="#">HTML</a></li>
+                <li><a href="#">CSS</a></li>
+                <li><a href="#">JavaScript</a></li>
+            </nav>
+        </header>
+        <div id="container-game"></div>
+        <div class="container-btn">
+            <button id="btn-play" onclick="playGame()">Play</button>
+            <button id="btn-reset" onclick="resetGame()">Reset</button>
+        </div>
+        <h2 id="gameOver">Game Over!</h2>
+        <div class="container-score">
+            <h2>Score:</h2>
+            <h2 id="score">0</h2>
+        </div>
+    </body>
+    <script type="text/javascript" src="./assets/js/sketch.js"></script>
+</html>
